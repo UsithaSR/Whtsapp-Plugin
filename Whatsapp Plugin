@@ -1,0 +1,69 @@
+<!-- Custom WhatsApp button start -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=Enter Mobile_Number_Here" type="button" class="float-whats-app" target="_blank" data-toggle="tooltip" data-placement="left" title="Chat with us via WhatsApp">
+    <i class="fa fa-whatsapp my-float-whats-app"></i>
+</a>
+
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
+
+<style>
+
+    .tooltip-inner {
+        font-size: 12px;
+        background: #FFFFFF;
+        color: #000;
+        text-align: left;
+        box-shadow: 0 2px 6px 2px #0000004d;
+        border: none !important;
+        padding: 10px;
+    }
+    .bs-tooltip-right .arrow:before {
+        border-right-color: #FFFFFF !important;
+    }
+    .bs-tooltip-left .arrow:before {
+        border-left-color: #FFFFFF !important;
+    }
+    .bs-tooltip-bottom .arrow:before {
+        border-bottom-color: #FFFFFF !important;
+    }
+    .bs-tooltip-top .arrow:before {
+        border-top-color: #FFFFFF !important;
+    }
+
+    a.float-whats-app:hover {
+        color: #6d7277 !important;
+        /* text-decoration: underline; */
+    }
+    .float-whats-app{
+        position:fixed;
+        width:50px;
+        height:50px;
+        bottom:40px;
+        right:40px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index:100;
+    }
+
+    .my-float-whats-app{
+        margin-top:10px;
+    }
+
+    /* Tooltip container */
+
+
+
+    /* Show the tooltip text when you mouse over the tooltip container */
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
+</style>
+<!-- Custom WhatsApp button end -->
